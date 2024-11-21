@@ -1,0 +1,25 @@
+phím tắt
+
+ctrl + b = tắt side bar
+
+ctrl + / = comment code 
+
+ctrl + enter = xuống dòng nhanh
+
+shift + 1 = tạo nhanh nội dung html
+
+ctrl + s = save file
+
+ctrl + w = close file
+
+ctrl + | = chia đôi màn hình
+
+ctlr + , = open setting
+
+alt + mũi tên = di chuyển thẻ
+
+
+format on save ticked
+word wrap: rớt dòng khi chữa quá dài
+
+https://excalidraw.com/

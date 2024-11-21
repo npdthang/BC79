@@ -1,0 +1,16 @@
+h2 {
+  color: blue;
+}
+
+.item-h2 {
+  color: red;
+}
+
+#logo {
+  color: green;
+  font-size: 40px;
+}
+
+div .item-h2 {
+  background: #000;
+}

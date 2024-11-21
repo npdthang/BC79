@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My cafe</title>
+</head>
+
+<body>
+  <!-- thẻ block width bằng 100% màn hình -->
+  <!-- thẻ inline thì width bằng với content -->
+  <h1 style="text-align: center; background: black; color: red;">
+    Cybersoft Cafe
+  </h1>
+  <div style="text-align: center;">
+    <a href="https://tiki.vn/">Home</a>
+    <a href="https://phuclong.com.vn/" target="_blank">Menu</a>
+    <a href="#">Order</a>
+  </div>
+  <hr width="50%">
+  <!-- đơn vị tuyệt đối px -->
+  <!-- đơn vị tương đối % -->
+  <h3 style="text-align: center; color: #95692f;">About our cafe</h3>
+  <p style="padding-left: 50%; text-align: right;">
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati aperiam voluptate magni doloribus quo
+    perspiciatis eius ratione, facilis inventore quam reprehenderit harum, officia voluptates tempora impedit ex
+    placeat! Sunt, reiciendis?
+  </p>
+  <hr>
+  <h3 style="text-align: center; color: #95692f;">Special item</h3>
+  <img src="/Image_buoi1/chilling-cafe-01.jpg" alt="noImg" style="width: 300px;">
+  <div>
+    <h3>The coffee list 1</h3>
+    <ul style="list-style-type: circle; color: blue;">
+      <li>Black cafe</li>
+      <li>white cafe</li>
+      <li>Latte</li>
+    </ul>
+    <h3>The coffee list 2</h3>
+    <ol type="I">
+      <li>Black cafe</li>
+      <li>white cafe</li>
+      <li>Latte</li>
+    </ol>
+
+    <!-- table (chia nhỏ nhất các row ra) -->
+    <!-- 1 dòng = tr -->
+    <!-- 1 text = td or th -->
+    <table style="width:600px;" border="1px" align="center" cellpadding="15px" cellspacing="0">
+      <thead>
+        <tr>
+          <th colspan="2">Name</th>
+          <th>Type</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="4" style="background-image: url(./Image_buoi1/chilling-cafe-11.jpg);">Traditional coffee</td>
+          <td rowspan="2">Vietnamese coffee</td>
+          <td>hot</td>
+          <td>60.000</td>
+        </tr>
+        <tr>
+          <td>Hot</td>
+          <td>28.000</td>
+        </tr>
+        <tr>
+          <td rowspan="2">milk coffee</td>
+          <td>hot</td>
+          <td>38.000</td>
+        </tr>
+        <tr>
+          <td>cold</td>
+          <td>54.000</td>
+        </tr>
+        <tr>
+          <td rowspan="3">Expresso</td>
+          <td>American Coffee</td>
+          <td rowspan="3">Hot</td>
+          <td>110.000</td>
+        </tr>
+        <tr>
+          <td>Machiato</td>
+          <td rowspan="2">40.000</td>
+        </tr>
+        <tr>
+          <td>Cappuchino</td>
+        </tr>
+      </tbody>
+    </table>
+    <p>
+      Reach us via <strong>email</strong> <a href="mailto:npdthang@gmail.com">aaa@aaa.com</a> or
+      <strong>hotline:</strong> <a href="tel:0765111734">0987654321.</a> thank you
+    </p>
+  </div>
+</body>
+
+</html>
