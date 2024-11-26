@@ -47,3 +47,26 @@ body {
 .flatform__item p {
   font-size: 14px;
 }
+
+/* code max width thì phải code giảm dần, mới ưu tiên được */
+/* responsive từ màn hình lớn đến màn hình nhỏ */
+
+@media screen and (max-width: 1024px) {
+  header {
+    background-color: red;
+  }
+}
+
+/* min width: tối thiểu, mobile first, responsive từ bé đến lớn */
+
+@media screen and (min-width: 680px) {
+  .banner {
+    background: yellow;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .banner {
+    background: green;
+  }
+}
